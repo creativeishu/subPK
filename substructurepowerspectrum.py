@@ -122,11 +122,4 @@ class Subpk(object):
 #==========================================================
 
 if __name__=='__main__':
-
-	filename = '/Users/irshad/github/HubbleFrontierField/paper1_substructures/generateplots/grids_all/A2744_HFFv1.gnuplot'
-	obj = Grid(filename,9,1)
-	obj2 = subpk(Grid.getgrid(obj),Grid.getR(obj))
-	[k,pk,n] = subpk.gridtopk(obj2)
-#	from pylab import loglog,show
-#	loglog(k,pk)
-#	show()
+	print "This module computes the 2D projected power spectrum of mass field"
